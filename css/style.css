@@ -1,0 +1,79 @@
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+nav {
+    margin-left: 10px;
+    vertical-align: middle;
+
+}
+nav, .nav-li{
+    display: inline-block;
+}
+nav {
+    margin-right: 60px;
+}
+
+
+/* SECTION 1 */
+.text-large{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.text-large h1 {
+    font-size: 50px;
+}
+
+.right-block, .left-block{
+    width:888px;
+    border: 1px solid #00000030;
+    height: 555px;
+    background-color: rgba(255, 0, 0, 0.13);
+    display: inline-block;
+
+}
+
+.left-block{
+    /*background-color: #adacac;*/
+}
+
+.right-block{
+    /*background-color: #cff3f3;*/
+}
+
+/* SECTION 2 */
+.services{
+background-color: beige;
+}
+
+.services-blocks{
+    /*background-color: #3D58A6;*/
+}
+
+.service-block{
+    display: inline-block;
+    background-color: indianred;
+    width: calc(75% / 3);
+    height: 300px;
+    border: 1px solid dimgrey;
+}
+
+
+.service-block:hover{
+    background-color: #d02c2c;
+    cursor: pointer;
+}
+
+
+.service-block img{
+    padding: 20px 20px 40px 20px ;
+}
+.service-block .service-text{
+    padding: 0px 20px ;
+}
+.service-block .service-text h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}

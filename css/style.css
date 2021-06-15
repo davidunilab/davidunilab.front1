@@ -1,3 +1,9 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
 .wrap {
   width: 1600px;
   margin: auto;
@@ -36,19 +42,13 @@ nav a, .nav-li a {
 
 #banner .right-block, #banner .left-block {
   display: inline-block;
-  width: 770px;
-  height: 555px;
-  border: 1px solid #00000030;
-}
-
-#banner .left-block .text-large {
-  height: 555px;
-  width: 770px;
+  width: 49%;
 }
 
 #banner .right-block img {
-  height: 555px;
-  width: 770px;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
 }
 
 /* SECTION 2 */
@@ -62,10 +62,12 @@ nav a, .nav-li a {
 }
 
 #services {
-  background-color: indianred;
-  border: 1px solid dimgrey;
   margin-bottom: 100px;
   padding-bottom: 100px;
+}
+
+#services .top {
+  margin-bottom: 10px;
 }
 
 #services .services-text {
@@ -83,9 +85,10 @@ nav a, .nav-li a {
 }
 
 #services .service-block {
-  padding: 20px;
+  padding: 20px 20px 80px 20px;
   width: 200px;
   display: inline-block;
+  margin-right: 10px;
 }
 
 #services .service-block img {
@@ -105,30 +108,30 @@ nav a, .nav-li a {
 
 .sb1 {
   background: #dab148;
-  background: linear-gradient(4deg, #dab148 0%, #eacc7b 100%);
+  background: linear-gradient(30deg, #dab148 0%, #ebd59d 100%);
 }
 
 .sb2 {
   background: #48c4da;
-  background: linear-gradient(4deg, #48c4da 0%, #7eedf1 100%);
+  background: linear-gradient(30deg, #48c4da 0%, #9ddfeb 100%);
 }
 
 .sb3 {
   background: #8c48da;
-  background: linear-gradient(4deg, #8c48da 0%, #835ede 100%);
+  background: linear-gradient(30deg, #8c48da 0%, #c19deb 100%);
 }
 
 .sb4 {
   background: #5c57ea;
-  background: linear-gradient(4deg, #5c57ea 0%, #7069fa 100%);
+  background: linear-gradient(30deg, #5c57ea 0%, #b4b2f5 100%);
 }
 
 .sb5 {
   background: #ba7aef;
-  background: linear-gradient(4deg, #ba7aef 0%, #cf96f8 100%);
+  background: linear-gradient(30deg, #ba7aef 0%, #e9d5fa 100%);
 }
 
 .sb6 {
   background: #ea57b4;
-  background: linear-gradient(4deg, #ea57b4 0%, #f678c9 100%);
+  background: linear-gradient(30deg, #ea57b4 0%, #f5b2dc 100%);
 }

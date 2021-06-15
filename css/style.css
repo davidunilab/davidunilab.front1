@@ -1,9 +1,3 @@
-html, body {
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-
 .wrap {
   width: 1600px;
   margin: auto;
@@ -30,108 +24,39 @@ nav a, .nav-li a {
 }
 
 /* SECTION 1 */
-#banner .text-large {
-  margin: auto;
-  text-align: center;
-}
-
-#banner .text-large h1 {
-  font-size: 50px;
-  padding-bottom: 40px;
-}
-
-#banner .right-block, #banner .left-block {
-  display: inline-block;
-  width: 49%;
-}
-
-#banner .right-block img {
-  vertical-align: middle;
-  max-width: 100%;
-  height: auto;
+#banner img {
+  width: 100%;
 }
 
 /* SECTION 2 */
-.services {
-  padding-top: 20px;
-  /*background-color: beige;*/
+#articles {
+  padding: 80px 0;
 }
 
-.services-blocks {
-  /*background-color: #3D58A6;*/
+#articles .wrap {
+  width: 1300px;
 }
 
-#services {
-  margin-bottom: 100px;
-  padding-bottom: 100px;
-}
-
-#services .top {
-  margin-bottom: 10px;
-}
-
-#services .services-text {
-  padding: 40px 0;
-  width: 550px;
-}
-
-#services .services-text h1 {
-  font-size: 30px;
-  margin: 30px 0;
-}
-
-#services .services-text p {
-  text-align: center;
-}
-
-#services .service-block {
-  padding: 20px 20px 80px 20px;
-  width: 200px;
+#articles .article {
   display: inline-block;
-  margin-right: 10px;
+  width: 605px;
+  padding: 0 20px 30px 20px;
 }
 
-#services .service-block img {
-  padding-bottom: 40px;
-  width: 90px;
-  height: 100px;
+#articles .article img {
+  width: 100%;
 }
 
-#services .service-block h1 {
+#articles .article h1 {
   font-size: 30px;
-  margin: 30px 0;
+  margin: 10px 0 20px 0;
 }
 
-#services .service-block p {
-  text-align: center;
+#articles .article p {
+  padding-bottom: 25px;
 }
 
-.sb1 {
-  background: #dab148;
-  background: linear-gradient(30deg, #dab148 0%, #ebd59d 100%);
+#articles .article a {
+  color: darkgoldenrod;
 }
 
-.sb2 {
-  background: #48c4da;
-  background: linear-gradient(30deg, #48c4da 0%, #9ddfeb 100%);
-}
-
-.sb3 {
-  background: #8c48da;
-  background: linear-gradient(30deg, #8c48da 0%, #c19deb 100%);
-}
-
-.sb4 {
-  background: #5c57ea;
-  background: linear-gradient(30deg, #5c57ea 0%, #b4b2f5 100%);
-}
-
-.sb5 {
-  background: #ba7aef;
-  background: linear-gradient(30deg, #ba7aef 0%, #e9d5fa 100%);
-}
-
-.sb6 {
-  background: #ea57b4;
-  background: linear-gradient(30deg, #ea57b4 0%, #f5b2dc 100%);
-}

@@ -1,12 +1,14 @@
-html, body {
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
+.wrap {
+  width: 1920;
+  margin: auto;
 }
 
-.wrap {
-  width: 1600px;
-  margin: auto;
+p, a, div {
+  font-size: 20px;
+}
+
+header {
+  margin-top: 70px;
 }
 
 .logo {
@@ -15,10 +17,10 @@ html, body {
 }
 
 nav {
-  margin-left: 10px;
   vertical-align: middle;
+  margin-left: 10px;
   padding: 5px 0;
-  margin-right: 60px;
+  margin-left: 120px;
 }
 
 nav, .nav-li {
@@ -26,18 +28,29 @@ nav, .nav-li {
 }
 
 nav a, .nav-li a {
-  padding: 15px 25px;
+  padding: 69px 15px 0 25px;
+  color: #3d37f1;
 }
 
 /* SECTION 1 */
+#banner {
+  margin-top: 370px;
+}
+
 #banner .text-large {
   margin: auto;
   text-align: center;
 }
 
 #banner .text-large h1 {
-  font-size: 50px;
-  padding-bottom: 40px;
+  font-size: 78px;
+  padding: 20px 0 40px 0;
+  line-height: 109px;
+}
+
+#banner .text-large p {
+  padding-top: 39px;
+  font-size: 22px;
 }
 
 #banner .right-block, #banner .left-block {
@@ -47,14 +60,14 @@ nav a, .nav-li a {
 
 #banner .right-block img {
   vertical-align: middle;
-  max-width: 100%;
-  height: auto;
+  width: 801px;
+  height: 526px;
 }
 
 /* SECTION 2 */
 .services {
   padding-top: 20px;
-  /*background-color: beige;*/
+  width: 1169px;
 }
 
 .services-blocks {
@@ -62,12 +75,11 @@ nav a, .nav-li a {
 }
 
 #services {
-  margin-bottom: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #services .top {
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 #services .services-text {
@@ -76,30 +88,33 @@ nav a, .nav-li a {
 }
 
 #services .services-text h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 30px 0;
 }
 
 #services .services-text p {
+  font-size: 18px;
+  line-height: 28px;
   text-align: center;
 }
 
 #services .service-block {
-  padding: 20px 20px 80px 20px;
-  width: 200px;
+  padding: 37px 20px 0 51px;
+  width: 330px;
+  height: 451px;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 #services .service-block img {
   padding-bottom: 40px;
-  width: 90px;
+  width: 100px;
   height: 100px;
 }
 
 #services .service-block h1 {
-  font-size: 30px;
-  margin: 30px 0;
+  font-size: 22px;
+  margin: 25px 0;
 }
 
 #services .service-block p {

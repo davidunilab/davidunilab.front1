@@ -1,3 +1,9 @@
+.wrap{
+    width: 1600px;
+    margin: auto;
+}
+
+
 .logo {
     display: inline-block;
     vertical-align: middle;
@@ -5,10 +11,12 @@
 nav {
     margin-left: 10px;
     vertical-align: middle;
+    padding: 5px 0;
 
 }
 nav, .nav-li{
     display: inline-block;
+    padding: 0 10px;
 }
 nav {
     margin-right: 60px;
@@ -27,12 +35,10 @@ nav {
 }
 
 .right-block, .left-block{
-    width:888px;
+    width:770px;
     border: 1px solid #00000030;
     height: 555px;
-    background-color: rgba(255, 0, 0, 0.13);
     display: inline-block;
-
 }
 
 .left-block{
@@ -45,7 +51,8 @@ nav {
 
 /* SECTION 2 */
 .services{
-background-color: beige;
+    padding-top: 20px;
+    background-color: beige;
 }
 
 .services-blocks{
@@ -58,6 +65,7 @@ background-color: beige;
     width: calc(75% / 3);
     height: 300px;
     border: 1px solid dimgrey;
+    transition: all .3s ;
 }
 
 
@@ -76,4 +84,34 @@ background-color: beige;
 .service-block .service-text h1{
     font-size: 20px;
     margin-bottom: 10px;
+}
+
+.sb1{
+    background: rgb(218,177,72);
+    background: linear-gradient(4deg, rgba(218,177,72,1) 0%, rgb(234, 204, 123) 100%);
+}
+
+.sb2{
+    background: rgb(72, 196, 218);
+    background: linear-gradient(4deg, rgb(72, 196, 218) 0%, rgb(126, 237, 241) 100%);
+}
+
+.sb3{
+    background: rgb(140, 72, 218);
+    background: linear-gradient(4deg, rgb(140, 72, 218) 0%, rgb(131, 94, 222) 100%);
+}
+
+.sb4{
+    background: rgb(92, 87, 234);
+    background: linear-gradient(4deg, rgb(92, 87, 234) 0%, rgb(112, 105, 250) 100%);
+}
+
+.sb5{
+    background: rgb(186, 122, 239);
+    background: linear-gradient(4deg, rgb(186, 122, 239) 0%, rgb(207, 150, 248) 100%);
+}
+
+.sb6{
+    background: rgb(234, 87, 180);
+    background: linear-gradient(4deg, rgb(234, 87, 180) 0%, rgb(246, 120, 201) 100%);
 }

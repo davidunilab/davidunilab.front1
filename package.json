@@ -1,0 +1,24 @@
+{
+  "name": "davidunilab.front1",
+  "version": "1.0.0",
+  "description": "No Description",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npm run scss-compile",
+    "scss-compile": "node-sass -rw assets/scss -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidunilab/davidunilab.front1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidunilab/davidunilab.front1/issues"
+  },
+  "homepage": "https://github.com/davidunilab/davidunilab.front1#readme"
+}

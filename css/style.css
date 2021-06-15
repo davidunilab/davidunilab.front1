@@ -25,8 +25,9 @@ nav {
 
 /* SECTION 1 */
 .text-large{
-    display: inline-block;
-    vertical-align: middle;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
 }
 
 
@@ -52,7 +53,7 @@ nav {
 /* SECTION 2 */
 .services{
     padding-top: 20px;
-    background-color: beige;
+    /*background-color: beige;*/
 }
 
 .services-blocks{
@@ -68,12 +69,10 @@ nav {
     transition: all .3s ;
 }
 
-
-.service-block:hover{
-    background-color: #d02c2c;
-    cursor: pointer;
+.services-text h1{
+    font-size: 30px;
+    margin: 30px 0  ;
 }
-
 
 .service-block img{
     padding: 20px 20px 40px 20px ;

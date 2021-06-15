@@ -1,3 +1,2 @@
-![ამოცანა 1](amocana1.png)
-![ამოცანა 1](amocana2.png)
+![ამოცანა 2](amocana2.png)
 

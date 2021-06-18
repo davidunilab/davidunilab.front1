@@ -1,5 +1,5 @@
 .wrap {
-  width: 1920;
+  width: 1920px;
   margin: auto;
 }
 
@@ -39,10 +39,15 @@ nav a, .nav-li a {
 
 #banner .text-large {
   margin: auto;
-  text-align: center;
+  text-align: left;
+}
+
+#banner .text-large {
+  margin-bottom: 50px;
 }
 
 #banner .text-large h1 {
+  width: 680px;
   font-size: 78px;
   padding: 20px 0 40px 0;
   line-height: 109px;
@@ -55,7 +60,11 @@ nav a, .nav-li a {
 
 #banner .right-block, #banner .left-block {
   display: inline-block;
-  width: 49%;
+  width: 956px;
+}
+
+#banner .left-block {
+  vertical-align: top;
 }
 
 #banner .right-block {

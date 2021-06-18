@@ -1,5 +1,7 @@
+$wrap: 1920px;
+
 .wrap {
-  width: 1920;
+  width: $wrap;
   margin: auto;
 }
 
@@ -27,7 +29,6 @@ nav, .nav-li {
   display: inline-block;
   a {
     padding: 69px 15px 0 25px; 
-    
     color: #3d37f1;
   }
 }
@@ -39,15 +40,16 @@ nav, .nav-li {
   margin-top: 370px;
   .text-large {
     margin: auto;
-    text-align: center;
+    text-align: left;
   }
 
   .text-large {
+    margin-bottom: 50px;
     h1{
+      width: 680px;
       font-size: 78px;
       padding: 20px 0 40px 0;
       line-height: 109px;
-      
     }
     p{
       padding-top:39px;
@@ -58,12 +60,12 @@ nav, .nav-li {
 
   .right-block, .left-block {
     display: inline-block;
-    width: 49%;
+    width: $wrap / 2 - 4;
     //border: 1px solid #00000030;
   }
 
   .left-block{
-
+    vertical-align: top;
   }
   .right-block {
     margin-bottom: 283px;

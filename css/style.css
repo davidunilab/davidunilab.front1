@@ -58,8 +58,11 @@ nav a, .nav-li a {
   width: 49%;
 }
 
+#banner .right-block {
+  margin-bottom: 283px;
+}
+
 #banner .right-block img {
-  vertical-align: middle;
   width: 801px;
   height: 526px;
 }
